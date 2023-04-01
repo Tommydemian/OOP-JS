@@ -20,3 +20,16 @@ console.log(user1.talk())
 console.log(user2)
 console.log(user3)
 
+const user4 = new createObject('new user', 7)
+console.log(user4)
+
+function greetings(name){console.log('how you doing ' + name)}
+
+const frank = new greetings('frank')
+const frank1 = Object.create(greetings)
+console.log(frank) 
+console.log(frank1) 
+// how you doing frank
+// greetings {}
+// the empty object is => Object.create()
+

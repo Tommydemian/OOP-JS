@@ -37,3 +37,15 @@
 - Js prototypeal nature. => not give up inmediatly when you dont find somthing in the object encapsulation.
 
 ## new & this KEYWORD:
+new keyword it's exactly the same as Object.create().
+`First you need to unserstand that functions in js are function and also objects`
+
+## SCOPE & THIS:
+1. 1 simple rule => when I called a function with a this keyword => I always got to assume that the [this] refers to the left had-side of the .
+<script>
+    //code 
+    function increment(){
+        this.score++
+    }
+    user20.increment // this is refering to user20
+</script>
