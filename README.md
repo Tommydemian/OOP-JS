@@ -92,3 +92,6 @@ user30 = new UserCreator2('Philipe', 78)
 user30.increment()
 console.log(user30)
  </script>
+
+ ## SUBCLASSING: 
+ - **Inheritance**: Passing data down. => In Js es un termino extrano. Lo pondria en los siguientes terminos: El children tiene la posibilidad de buscar x property/func(x) en el prototype del padre, pero no diria que lo hereda y lo posee el como tal.  
