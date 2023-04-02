@@ -95,3 +95,9 @@ console.log(user30)
 
  ## SUBCLASSING: 
  - **Inheritance**: Passing data down. => In Js es un termino extrano. Lo pondria en los siguientes terminos: El children tiene la posibilidad de buscar x property/func(x) en el prototype del padre, pero no diria que lo hereda y lo posee el como tal.  
+
+ 1. SubClassing with func factory. 
+
+ 2. SubClassing with new.
+
+ 3. subClassing with classes and extends
